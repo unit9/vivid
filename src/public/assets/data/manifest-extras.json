@@ -1,0 +1,17 @@
+{
+	"manifest": [
+		{ "id": "rocket-smoke-blue-data", "src": "assets/img/rockets/rocket-smoke-blue.json" },
+		{ "id": "rocket-smoke-blue-spritesheet", "src": "assets/img/rockets/rocket-smoke-blue.png" },
+		{ "id": "rocket-smoke-pink-data", "src": "assets/img/rockets/rocket-smoke-pink.json" },
+		{ "id": "rocket-smoke-pink-spritesheet", "src": "assets/img/rockets/rocket-smoke-pink.png" },
+		{ "id": "rocket-smoke-yellow-data", "src": "assets/img/rockets/rocket-smoke-yellow.json" },
+		{ "id": "rocket-smoke-yellow-spritesheet", "src": "assets/img/rockets/rocket-smoke-yellow.png" },
+
+		{ "id": "rocket-takeoff-blue-data", "src": "assets/img/rockets/rocket-takeoff-blue.json" },
+		{ "id": "rocket-takeoff-blue-spritesheet", "src": "assets/img/rockets/rocket-takeoff-blue.png" },
+		{ "id": "rocket-takeoff-pink-data", "src": "assets/img/rockets/rocket-takeoff-pink.json" },
+		{ "id": "rocket-takeoff-pink-spritesheet", "src": "assets/img/rockets/rocket-takeoff-pink.png" },
+		{ "id": "rocket-takeoff-yellow-data", "src": "assets/img/rockets/rocket-takeoff-yellow.json" },
+		{ "id": "rocket-takeoff-yellow-spritesheet", "src": "assets/img/rockets/rocket-takeoff-yellow.png" }
+	]
+}

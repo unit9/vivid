@@ -1,0 +1,44 @@
+{
+  "head": {
+    "title": "VIVID | UNIT9 Presents"
+  },
+  "preloader": {
+    "title": "This game is meant to be <br>played in vr mode with headphones",
+    "description": "Select 3 rockets of the same colour and watch them explode!",
+    "note": "This experience was designed for high performance devices. We recommend a minimum of iPhone 7, Galaxy S7 or similar."
+  },
+  "desktop": {
+    "title": "Warning",
+    "description": "This experience is optimised for mobile devices.<br> We recommend that you use an Android device with Chrome or an iOS device with Safari.",
+    "continue": "Continue anyway"
+  },
+  "unsupported": {
+    "title": "Warning",
+    "description": "This experience is optimised for Safari (iOS) and Chrome (Android).<br> We recommend that you use one of these browsers.",
+    "social": "You can open this site directly in your browser by clicking the menu<br> button in either the top-right or bottom-right of the screen.",
+    "continue": "Continue anyway"
+  },
+  "nojs": {
+    "title": "JavaScript disabled",
+    "description": "This website requires Javascript in order to work properly. Please enable Javascript."
+  },
+  "rotate": {
+    "title": "Please rotate your device horizontally"
+  },
+  "404": {
+    "title": "Houston, we have a problem..."
+  },
+  "start": {
+    "best": "Best score:",
+    "cta": "Start"
+  },
+  "end": {
+    "cta": "Restart"
+  },
+  "social": {
+    "title": "VIVID | Web VR game",
+    "description": "Match 3 fireworks and watch them explode in this new Web VR experience!",
+    "url": "http://vivid.unit9.com",
+    "twitterAccount": "@unit9"
+  }
+}

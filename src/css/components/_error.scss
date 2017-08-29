@@ -1,0 +1,152 @@
+.errorScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-image: url('/assets/img/ui/background_error.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+
+  .message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+
+    width: 90%;
+    text-align: center;
+
+    @include respond-to('medium') {
+      width: 80%;
+    }
+  }
+
+  .icon {
+    max-width: 20%;
+    display: inline-block;
+
+    @include respond-height-to('medium') {
+      max-width: 30%;
+    }
+  }
+
+  .icon--error {
+    margin-top: -40vh;
+  }
+
+  .title {
+    color: $color-white;
+    font-family: $font-brandon-blk;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    letter-spacing: 5px;
+
+    @include respond-height-to('small') {
+      letter-spacing: 10px;
+    }
+
+    @include respond-height-to('medium') {
+      margin-top: 4vh;
+      margin-bottom: 4vh;
+    }
+
+    @include respond-height-to('large') {
+      margin-top: 7vh;
+      font-size: 33px;
+      line-height: 33px;
+    }
+  }
+
+  .description,
+  .social {
+    color: $color-white;
+    font-family: $font-brandon-lgt;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+
+    @include respond-height-to('small') {
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+    @include respond-height-to('large') {
+      font-size: 30px;
+      line-height: 38px;
+    }
+  }
+
+  .ctaContinue {
+    color: $color-theme;
+    font-family: $font-brandon-blk;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 4vh;
+    cursor: pointer;
+    letter-spacing: 8px;
+
+    @include respond-height-to('large') {
+      font-size: 24px;
+      line-height: 24px;
+    }
+  }
+}
+
+#rotateScreen {
+  display: none;
+
+  .title {
+    margin-top: -15px;
+  }
+
+  img {
+    margin: 0 4% 0 0;
+    max-width: 365px;
+    width: 90%;
+  }
+}
+
+.rotate {
+  #rotateScreen {
+    display: block;
+  }
+}
+
+#desktopDisclaimer {
+  display: none;
+}
+
+.desktop {
+  #desktopDisclaimer {
+    display: block;
+  }
+}
+
+#unsupportedDisclaimer {
+  display: none;
+}
+
+#social {
+  display: none;
+}
+
+.unsupported {
+  #unsupportedDisclaimer {
+    display: block;
+  }
+}
+
+.social {
+  #social {
+    display: block;
+  }
+}

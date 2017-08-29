@@ -1,0 +1,84 @@
+@keyframes spinner {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#loadingScreen {
+  display: none;
+  background-image: url('/assets/img/ui/background.jpg');
+
+  .message {
+    padding-bottom: 40px;
+    max-width: 52%;
+
+    @include respond-height-to('small') {
+      padding-bottom: 0;
+    }
+
+    @include respond-to('medium') {
+      max-width: 70%;
+    }
+
+    @media screen and (orientation: portrait) {
+      padding-bottom: 120px;
+    }
+  }
+
+  .icon {
+    max-width: 36%;
+
+    @media screen and (orientation: portrait) {
+      max-width: 80%;
+    }
+  }
+
+  .title {
+    max-width: 872px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+    font-size: 11px;
+    letter-spacing: 3px;
+  }
+
+  .description {
+    letter-spacing: 1px;
+    margin-bottom: 4vh;
+    font-size: 11px;
+    line-height: 15px;
+
+    @include respond-height-to('medium') {
+      margin-bottom: 6vh;
+    }
+  }
+
+  .icon--spinner {
+    animation: spinner 1s infinite linear;
+    max-width: 10vh;
+  }
+
+  .footer {
+    color: $color-white;
+    font-family: $font-brandon-lgt;
+    font-size: 10px;
+    line-height: 15px;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 80%;
+    transform: translate3d(-50%, 0, 0);
+    text-align: center;
+    margin-bottom: 4vh;
+  }
+}
+
+#loadingScreen.loading--progress {
+  display: block;
+}

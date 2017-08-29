@@ -1,0 +1,24 @@
+$fonts-path: '/assets/fonts/';
+
+@font-face {
+  font-family: 'Brandon_blk';
+  src: url($fonts-path + 'BrandonGrotesque-Black.eot?#iefix') format('embedded-opentype'),
+  url($fonts-path + 'BrandonGrotesque-Black.woff') format('woff'),
+  url($fonts-path + 'BrandonGrotesque-Black.ttf') format('truetype'),
+  url($fonts-path + 'BrandonGrotesque-Black.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brandon_lgt';
+  src: url($fonts-path + 'BrandonGrotesque-Light.eot?#iefix') format('embedded-opentype'),
+  url($fonts-path + 'BrandonGrotesque-Light.woff') format('woff'),
+  url($fonts-path + 'BrandonGrotesque-Light.ttf') format('truetype'),
+  url($fonts-path + 'BrandonGrotesque-Light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-brandon-blk: 'Brandon_blk', Arial, Verdana, sans-serif;
+$font-brandon-lgt: 'Brandon_lgt', Arial, Verdana, sans-serif;

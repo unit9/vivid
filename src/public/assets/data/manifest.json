@@ -1,0 +1,68 @@
+{
+	"manifest": [
+		{ "id": "explosion-blue-1", "src": "assets/img/fireworks/explosion-blue-1.png" },
+		{ "id": "explosion-blue-4", "src": "assets/img/fireworks/explosion-blue-4.png" },
+		{ "id": "explosion-blue-5", "src": "assets/img/fireworks/explosion-blue-5.png" },
+		{ "id": "explosion-pink-1", "src": "assets/img/fireworks/explosion-pink-1.png" },
+		{ "id": "explosion-pink-4", "src": "assets/img/fireworks/explosion-pink-4.png" },
+		{ "id": "explosion-pink-5", "src": "assets/img/fireworks/explosion-pink-5.png" },
+		{ "id": "explosion-yellow-1", "src": "assets/img/fireworks/explosion-yellow-1.png" },
+		{ "id": "explosion-yellow-4", "src": "assets/img/fireworks/explosion-yellow-4.png" },
+		{ "id": "explosion-yellow-5", "src": "assets/img/fireworks/explosion-yellow-5.png" },
+
+		{ "id": "mute", "src": "assets/img/ui/mute.png" },
+		{ "id": "mute_off", "src": "assets/img/ui/mute_off.png" },
+		{ "id": "vr", "src": "assets/img/ui/vr.png" },
+
+		{ "id": "score-underline", "src": "assets/img/ui/score_underline.png" },
+		{ "id": "gamelogo", "src": "assets/img/start-screen/logo.png" },
+		{ "id": "u9-logo", "src": "assets/img/start-screen/unit9_logo.png" },
+		{ "id": "rocket-selector", "src": "assets/img/rockets/rocket_selector.png" },
+		{ "id": "bar1", "src": "assets/img/ui/bar_1.png" },
+		{ "id": "bar2", "src": "assets/img/ui/bar_2.png" },
+
+		{ "id": "xpos", "src": "assets/img/skybox/xpos.jpg" },
+		{ "id": "xneg", "src": "assets/img/skybox/xneg.jpg" },
+		{ "id": "ypos", "src": "assets/img/skybox/ypos.jpg" },
+		{ "id": "yneg", "src": "assets/img/skybox/yneg.jpg" },
+		{ "id": "zpos", "src": "assets/img/skybox/zpos.jpg" },
+		{ "id": "zneg", "src": "assets/img/skybox/zneg.jpg" },
+		{ "id": "pointer", "src": "assets/img/ui/meter_pointer.png" },
+
+		{ "id": "rocket-trail-blue-data", "src": "assets/img/rockets/rocket-tail-blue.json" },
+		{ "id": "rocket-trail-blue-spritesheet", "src": "assets/img/rockets/rocket-tail-blue.png" },
+		{ "id": "rocket-trail-pink-data", "src": "assets/img/rockets/rocket-tail-pink.json" },
+		{ "id": "rocket-trail-pink-spritesheet", "src": "assets/img/rockets/rocket-tail-pink.png" },
+		{ "id": "rocket-trail-yellow-data", "src": "assets/img/rockets/rocket-tail-yellow.json" },
+		{ "id": "rocket-trail-yellow-spritesheet", "src": "assets/img/rockets/rocket-tail-yellow.png" },
+
+		{ "id": "rocket-ember", "src": "assets/img/rockets/rocket-ember.png" },
+
+		{ "id": "terrain-map", "src": "assets/img/terrain/terrain_04LightingMap.jpg" },
+
+		{ "id": "select1", "src": "assets/audio/select1.mp3" },
+		{ "id": "select2", "src": "assets/audio/select2.mp3" },
+		{ "id": "select3", "src": "assets/audio/select3.mp3" },
+		{ "id": "launch1", "src": "assets/audio/launchA.mp3" },
+		{ "id": "launch2", "src": "assets/audio/launchB.mp3" },
+		{ "id": "launch3", "src": "assets/audio/launchC.mp3" },
+		{ "id": "rise1", "src": "assets/audio/riseA.mp3" },
+		{ "id": "rise2", "src": "assets/audio/riseB.mp3" },
+		{ "id": "rise3", "src": "assets/audio/riseC.mp3" },
+		{ "id": "explosion1", "src": "assets/audio/explosionA.mp3" },
+		{ "id": "explosion2", "src": "assets/audio/explosionB.mp3" },
+		{ "id": "explosion3", "src": "assets/audio/explosionC.mp3" },
+		{ "id": "rocket_fail", "src": "assets/audio/rocket_fail.mp3" },
+		{ "id": "game_theme", "src": "assets/audio/game_theme.mp3" },
+		{ "id": "game_theme_fade_out", "src": "assets/audio/game_theme_fade_out.mp3" },
+		{ "id": "twinkle_loop", "src": "assets/audio/twinkle_loop.mp3" },
+		{ "id": "combo_x2", "src": "assets/audio/combo_x2.mp3" },
+		{ "id": "combo_x3", "src": "assets/audio/combo_x3.mp3" },
+		{ "id": "combo_x4", "src": "assets/audio/combo_x4.mp3" },
+		{ "id": "combo_x5", "src": "assets/audio/combo_x5.mp3" },
+		{ "id": "combo_decrease", "src": "assets/audio/combo_decrease.mp3" },
+
+		{ "id": "font-blk", "src": "/assets/fonts/BrandonGrotesque-Black.woff" },
+		{ "id": "font-lgt", "src": "/assets/fonts/BrandonGrotesque-Light.woff" }
+	]
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <title>{{{ head.title }}}</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:title" content="{{ social.title }}"/>
+    <meta property="og:url" content="{{ social.url }}"/>
+    <meta property="og:image" content="{{ social.url }}/assets/social/share.png"/>
+    <meta property="og:site-name" content="{{ head.title }}"/>
+    <meta property="og:description" content="{{ social.description }}"/>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="{{ social.twitterAccount }}">
+    <meta name="twitter:title" content="{{ social.title }}">
+    <meta name="twitter:description" content="{{ social.description }}">
+    <meta name="twitter:creator" content="{{ social.twitterAccount }}">
+    <meta name="twitter:image:src" content="{{ social.url }}/assets/social/share.png">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/app.css">
+    <script src="./dat.gui.js"></script>
+    <script>
+        WebVRConfig = {
+            BUFFER_SCALE: 1.0,
+        };
+
+        document.addEventListener('touchmove', function (e) {
+            e.preventDefault();
+        });
+    </script>
+</head>
+<body>
+<aside style="display: none">
+    <p id="start-best">{{{ start.best }}}</p>
+    <p id="start-cta">{{{ start.cta }}}</p>
+    <p id="end-cta">{{{ end.cta }}}</p>
+</aside>
+<div id="app">
+    <div id="desktopDisclaimer" class="errorScreen">
+        <div class="message">
+            <img class="icon icon--error" src="/assets/img/ui/error.png">
+            <p class="title">{{{ desktop.title }}}</p>
+            <p class="description">{{{ desktop.description }}}</p>
+        </div>
+    </div>
+    <div id="rotateScreen" class="errorScreen">
+        <div class="message">
+            <img class="icon" src="/assets/img/ui/rotate.png">
+            <p class="title">{{{ rotate.title }}}</p>
+        </div>
+    </div>
+    <div id="loadingScreen" class="errorScreen">
+        <div class="message">
+            <img class="icon" src="/assets/img/ui/preload.png">
+            <p class="title">{{{ preloader.title }}}</p>
+            <p class="description">{{{ preloader.description }}}</p>
+            <img class="icon--spinner" src="/assets/img/ui/spinner.png">
+        </div>
+        <div class="footer">
+            <p class="note">{{{ preloader.note }}}</p>
+        </div>
+    </div>
+    <div id="unsupportedDisclaimer" class="errorScreen">
+        <div class="message">
+            <img class="icon icon--error" src="/assets/img/ui/error.png">
+            <p class="title">{{{ unsupported.title }}}</p>
+            <p class="description">{{{ unsupported.description }}}</p>
+            <p id="social" class="social">{{{ unsupported.social }}}</p>
+            <div class="ctaContinue">{{{ unsupported.continue }}}</div>
+        </div>
+    </div>
+    <noscript>
+        <div class="errorScreen">
+            <div class="message">
+                <img class="icon icon--error" src="/assets/img/ui/error.png">
+                <p class="title">{{{ nojs.title }}}</p>
+                <p class="description">{{{ nojs.description }}}</p>
+            </div>
+        </div>
+    </noscript>
+</div>
+<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>

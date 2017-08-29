@@ -1,0 +1,13 @@
+.version-info {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: white;
+  padding: 6px;
+  z-index: 1;
+  display: none;
+}
+
+.version-info__item {
+  font-size: 10px;
+}

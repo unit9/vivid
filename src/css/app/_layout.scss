@@ -1,0 +1,37 @@
+$breakpoints: (
+'small':  767px,
+'medium': 992px,
+'large':  1200px
+) !default;
+
+$height-breakpoints: (
+'small':  350px,
+'medium': 600px,
+'large':  768px
+) !default;
+
+@mixin respond-to($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+    + "Available breakpoints are: #{map-keys($breakpoints)}.";
+  }
+}
+
+@mixin respond-height-to($breakpoint) {
+  @if map-has-key($height-breakpoints, $breakpoint) {
+    @media (min-height: map-get($height-breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+    + "Available breakpoints are: #{map-keys($height-breakpoints)}.";
+  }
+}

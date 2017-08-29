@@ -1,0 +1,20 @@
+// Utils
+@import './utils/normalize';
+
+// App
+@import './app/layout';
+@import './app/fonts';
+@import './app/colors';
+
+// Components
+@import 'components/error';
+
+// Base
+html {
+  background: url('/assets/img/ui/background_404.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+img {
+  max-width: 405px;
+}
